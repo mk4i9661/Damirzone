@@ -1,0 +1,49 @@
+﻿#images
+{
+    text-align: center;
+    background-color: White;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+#panel
+{
+    display: none;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+}
+#header
+{
+    height: 200px;
+    background-image: url(images/header.png);
+    text-align: center;
+}
+#header h1
+{
+    margin: auto;
+    vertical-align: middle;
+    line-height: 200px;
+    color: White;
+    font-size: 72pt;
+    font-family: Times New Roman;
+}
+#footer
+{
+    height: 200px;
+    background-image: url(images/footer.png);
+}
+#body
+{
+    background-color: #6ab7cb;
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    margin: 0px;
+    min-width: 256px;
+}
